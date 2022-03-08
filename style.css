@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body{
+    background-image: url(https://media.istockphoto.com/photos/gray-doggy-tile-pattern-repeat-background-picture-id490747664?b=1&k=20&m=490747664&s=170667a&w=0&h=ca0K-dWeUfVBRk9nRwMmcsKXd-RStz_BbEXfJ-oTzdw=);
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+    background-size: auto;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+#heading{
+    max-width: 700px;
+    margin: auto;
+    padding: auto; 
+    text-align: center;   
+}
+
+#title{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1;
+}
+
+#main{
+    padding: 0% 20% 0% 20%;
+}
+
+#survey-form{
+    background: color #d8d0fd;
+    border-radius: 7px;    
+}
+
+.form{
+    width: 100%;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: none;
+}
+
+#name{
+    background-color:#ebe7e7
+}
+
+#email{
+    background-color:#ebe7e7
+}
+
+#number{
+    background-color:#ebe7e7
+}
+
+#dropdown{
+    background-color:#ebe7e7;
+}
+
+#description{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#ending{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+#questions{
+    background-color:#ebe7e7;
+}
+
+#submit{
+    background-color:#adadad;
+    color: #5a5a5a;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color:#5a5a5a;
+    color: #adadad;
+}
+
+

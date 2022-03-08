@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial scale="1.0">
+        <title>Formulário de adoção</title>
+        <link rel="stylesheet" type="text/css" href="C:\Users\berbb\OneDrive\Área de Trabalho\Projetos\style.css">
+    </head>
+    <body>
+        <div id="heading">
+        <h1 id="title">Formulário de adoção</h1>
+        <p id="description">Formulário criado para adoção responsável de animais</p>
+        </div>
+        <br>
+        <div id="main">
+            <form id="survey-form">
+                <div id="input-fields">
+                    <label id="name-label"><b>Nome:</b></label>
+                    <input id="name" type="name" name="name" class="form" required placeholder="Digite seu nome completo">
+                    <br>
+                    <label id="email-label"><b>Email:</b></label>
+                    <input id="email" type="email" name="email" class="form" required placeholder="Digite seu Email">
+                    <br>
+                    <label id="number-label"><b>Idade:</b></label>
+                    <input id="number" type="number" name="number" class="form" min="10" max="99" required placeholder="10+">
+                    <br>
+                </div>
+                <br>
+                <div id="dropdown-div"><br>
+                    <label id="dropdown-label"><strong>Animal que você quer adotar:</strong></label><br>
+                    <select id="dropdown" name="animal" class="form">
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Papagaio">Papagaio</option>
+                        <option value="Hamster">Hamster</option>
+                        <option value="Porco">Porco</option>
+                        <option value="Galinha">Galinha</option>
+                        <option value="Vaca">Vaca</option>
+                    </select>
+                </div>
+                <br>
+                <div id="button-area">
+                    <label for="idade" id="Tamanho"><b>Idade do animal:</b></label><br>
+                    <input type="radio" name="idade_animais" value="filhote"/> Filhote<br>
+                    <input type="radio" name="idade_animais" value="adulto"/> Adulto<br>
+                    <input type="radio" name="idade_animais" value="velho"/> Velho<br>
+                </div>
+                <br>
+                <div id="bonus">
+                    <label for="bonus"><b>Opções de compra bônus:</b></label><br>
+                    <input type="checkbox" id="brinquedos" name="brinquedos"> Brinquedos<br>
+                    <input type="checkbox" id="racao" name="racao"> Ração<br>
+                    <input type="checkbox" id="material_banho" name="material_banho"> Material para Banho<br>
+                </div>
+                <br>
+                <br>
+                <div id="ending"><br>
+                    <label id="comentarios-label">Você possui alguma dúvida sobre esse formulário?</label><br>
+                    <textarea id="questions"  style="height:120px;" class="form" placeholder="Sinta se livre para perguntar"></textarea><br><br>
+                    <input id="submit" type="submit" class="form"><br><br>
+                </div>
+            </form>
+        </div>
+
+                
+    </body>
+</html>
